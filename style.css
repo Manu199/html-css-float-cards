@@ -6,7 +6,6 @@
   
 body {
   font-family: 'Fredoka', sans-serif;
-  color: #000000;
   text-align: center;
 }
 h1 {
@@ -23,7 +22,7 @@ h1 {
 .clearfix{
   background-color: rgb(15, 14, 23);
   float: left;
-  text-align: center;
+  text-align: left;
 }
 .clearfix::after{
   content: '';
@@ -37,12 +36,26 @@ img {
 }
 div{
   width: 300px;
-  height: 80px;
+  /* height: 80px; */
+  margin: 20px;
+  box-shadow: 0 0 1rem #00000069;
 
 }
-p {
+div p{
   color: white;
+  font-size: small;
+  padding: 6px 0 0 95px;
 }
-name {
+p.name{
   color: white;
+  font-size:medium;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+section{
+  padding: 30px;  
+  margin-left: 40px;
+}
+p.email{
+  color: rgb(77, 204, 242);
 }
